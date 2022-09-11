@@ -1,0 +1,14 @@
+// Question 5:
+// Write a JavaScript program to reverse a string without using inbuilt methods.
+// For example,
+// Input: Hello
+// Output: olleH
+
+var str = "Hello";
+
+var bag = "";
+
+for (var i = 0; i < str.length; i++) {
+  bag = str[i] + bag;
+}
+console.log(bag);
